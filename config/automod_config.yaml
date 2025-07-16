@@ -1,0 +1,21 @@
+attachment_rule:
+  blocked_filetypes:
+  - .exe
+  - .bat
+  - .js
+badword_rule:
+  bad_words:
+  - badword1
+  - badword2
+caps_rule:
+  max_caps_ratio: 0.7
+  min_length: 3
+link_blocking_rule:
+  blocked_links:
+  - discord.gg
+  - bit.ly
+mass_mention_rule:
+  max_mentions: 5
+spam_rule:
+  spam_interval: 10
+  spam_threshold: 5
